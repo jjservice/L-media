@@ -16,7 +16,7 @@ const media = [
         type: "audio"
     },
     {   
-        id: 5, 
+        id: 3, 
         name: "Amantes & Amigos", 
         artist: "Arcángel x Sech", 
         img: "arcangelsechpicc.jpg", 
@@ -24,12 +24,60 @@ const media = [
         type: "video"
     },
     {   
-        id: 6, 
+        id: 4, 
         name: "Shampoo de Coco", 
         artist: "Anuel AA", 
         img: "anuelshampooPic11.jpg", 
         file: "Anuel AA - Shampoo de Coco (Video Oficial).mp4", 
         type: "video"
+    },
+    {   
+        id: 5, 
+        name: "Curiana", 
+        artist: "El Poeta x Carlos Coins", 
+        img: "PoetaCarlosCurianaPic.jpg", 
+        file: "El Poeta, @CarlosCoins - Curiana.mp3", 
+        type: "audio"
+    },
+    {   
+        id: 6, 
+        name: "Curiana", 
+        artist: "El Poeta x Carlos Coins", 
+        img: "PoetaCarlosCurianaPic.jpg", 
+        file: "El Poeta, @CarlosCoins - Curiana.mp3", 
+        type: "audio"
+    },
+    {   
+        id: 7, 
+        name: "Na Conmigo", 
+        artist: "Lapiz Conciente", 
+        img: "LapizNaConmigoPic.jpg", 
+        file: "Lapiz Conciente - Na Conmigo.mp3", 
+        type: "audio"
+    },
+    {   
+        id: 8, 
+        name: "Cielo Eterno", 
+        artist: "Jasiel Nuñez", 
+        img: "JASIELNUPICCC.jpg", 
+        file: "cielo-eterno-jasiel-nunez-dannyluxMP33.mp3", 
+        type: "audio"
+    },
+    {   
+        id: 9, 
+        name: "Lost The Love", 
+        artist: "BigXthaPlug", 
+        img: "BigXLawOrderPic.jpg", 
+        file: "BigXthaPlug - Lost The Love.mp3", 
+        type: "audio"
+    },
+    {   
+        id: 10, 
+        name: "Law & Order", 
+        artist: "BigXthaPlug", 
+        img: "BigxLastPic.jpg", 
+        file: "BigXthaPlug - Law & Order.mp3", 
+        type: "audio"
     },
 ];
 
