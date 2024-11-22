@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Player</title>
+    <link rel="stylesheet" href="Lmedia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body class="lightPlayer">
+
+    <div class="media-player">
+  
+        <h1 class="lolli-title">LOLLIP<ion-icon name="headset-sharp" onclick="toggleClassPlayer()"></ion-icon>P</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder=".;.LOLLITA.;.">
+            <button id="voice-search-button"><i class="fas fa-microphone"></i></button>
+        
+        <select id="language-selector">
+            <option value="en-US">English</option>
+            <option value="es-ES">Spanish</option>
+            <option value="fr-FR">French</option>
+            <!-- Add more languages as needed -->
+            </select>
+        </div>
+
+        <button id="HideShow-Btn">Hide Screen</button>
+        <video id="media-player" controls>
+            <source id="media-source" type="audio/mp3">
+        </video>
+        
+        <section class="media-player-section">
+            <progress><input type="range" id="progress-bar" value="0" step="0.01" min="0" max="100"></progress>
+            <div class="media-controls" id="media-controls">
+                <button id="mute-button"><i class="fas fa-volume-up"></i></button>
+                <button id="prev-button"><i class="fas fa-backward"></i></button>
+                <button id="play-pause-button"><i class="fas fa-play"></i></button>
+                <button id="next-button"><i class="fas fa-forward"></i></button>
+                <button id="random-button"><i class="fas fa-random"></i></button>
+
+            </div>
+        </section>
+
+    <section class="media-list">
+        <div id="media-list">
+            <!-- Media itemls will be dynamically generated here -->
+        </div>
+    </section>
+    <div class="volume-controls">
+        <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="1">
+   </div>
+    
+    <div class="jj-title">JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></div>
+    <div class="homebtn"><a href="https://jjservice.github.io/L2/1.html">
+       <ion-icon name="home"></ion-icon></a></div>
+</div>
+
+</body>
+<script src="Lmedia.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
